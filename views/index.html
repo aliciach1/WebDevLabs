@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alicia Chen">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Alicia's professional website">
+    <title>Alicia Chen</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload=" addYear()">
+    <header>
+        <h1 id="webname">Alicia Chen</h1>
+        <nav id="myTopnav" class="topnav">
+            <a class="active" href = "index.html">Home</a>
+            <a href = "cv.html">CV</a>
+            <a href = "contact.html">Contact Me</a>
+            <a href = "fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class = "main">
+        <h2 id = "greeting"></h2>
+        <img class="classA" src="../static/alicia_profile_img.jpeg" alt = "Alicia profile image" width = "350px">
+        <!-- <div class="classA">
+            <p id = "intro">Hello I am in information systems pls give me a job</p>
+        </div> -->
+        <div class="classA">
+            <span id="shortIntro">Hello! My name is Alicia Chen, and I am studying Information Systems at Carnegie Mellon University.</span>
+            <span id="readMore"> read more ...</span>            
+            <span id="longIntro">I am looking for a job. I have experience in HTML and CSS so i can make websites for your company!!!</span>
+            <span id="readLess"> read less</span>
+        </div>
+    </div>
+
+    <footer>
+        <p id="copyYear">Alicia Chen &copy;</p>
+    </footer>
+
+
+
+    
+</body>
+</html>
